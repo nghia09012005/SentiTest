@@ -283,7 +283,7 @@ export const mockTransactions = [
 
 export const mockBarData = [
   {
-    country: "AD",
+    Location: "BigC",
     "hot dog": 137,
     "hot dogColor": "hsl(229, 70%, 50%)",
     burger: 96,
@@ -294,7 +294,7 @@ export const mockBarData = [
     donutColor: "hsl(340, 70%, 50%)",
   },
   {
-    country: "AE",
+    Location: "Co-op Mart",
     "hot dog": 55,
     "hot dogColor": "hsl(307, 70%, 50%)",
     burger: 28,
@@ -305,7 +305,7 @@ export const mockBarData = [
     donutColor: "hsl(275, 70%, 50%)",
   },
   {
-    country: "AF",
+    Location: "Bach Hoa Xanh",
     "hot dog": 109,
     "hot dogColor": "hsl(72, 70%, 50%)",
     burger: 23,
@@ -316,7 +316,7 @@ export const mockBarData = [
     donutColor: "hsl(256, 70%, 50%)",
   },
   {
-    country: "AG",
+    Location: "Vincom",
     "hot dog": 133,
     "hot dogColor": "hsl(257, 70%, 50%)",
     burger: 52,
@@ -327,7 +327,7 @@ export const mockBarData = [
     donutColor: "hsl(9, 70%, 50%)",
   },
   {
-    country: "AI",
+    Location: "EMart",
     "hot dog": 81,
     "hot dogColor": "hsl(190, 70%, 50%)",
     burger: 80,
@@ -338,7 +338,7 @@ export const mockBarData = [
     donutColor: "hsl(285, 70%, 50%)",
   },
   {
-    country: "AL",
+    Location: "Lotter Mart",
     "hot dog": 66,
     "hot dogColor": "hsl(208, 70%, 50%)",
     burger: 111,
@@ -349,7 +349,7 @@ export const mockBarData = [
     donutColor: "hsl(76, 70%, 50%)",
   },
   {
-    country: "AM",
+    Location: "Diamon Plaza",
     "hot dog": 80,
     "hot dogColor": "hsl(87, 70%, 50%)",
     burger: 47,
@@ -363,32 +363,32 @@ export const mockBarData = [
 
 export const mockPieData = [
   {
-    id: "hack",
-    label: "hack",
+    id: "Sweet",
+    label: "Sweet",
     value: 239,
     color: "hsl(104, 70%, 50%)",
   },
   {
-    id: "make",
-    label: "make",
+    id: "Sour",
+    label: "Sour",
     value: 170,
     color: "hsl(162, 70%, 50%)",
   },
   {
-    id: "go",
-    label: "go",
+    id: "Spicy",
+    label: "Spicy",
     value: 322,
     color: "hsl(291, 70%, 50%)",
   },
   {
-    id: "lisp",
-    label: "lisp",
+    id: "Salty",
+    label: "Salty",
     value: 503,
     color: "hsl(229, 70%, 50%)",
   },
   {
-    id: "scala",
-    label: "scala",
+    id: "Bitter",
+    label: "Bitter",
     value: 584,
     color: "hsl(344, 70%, 50%)",
   },
@@ -396,168 +396,61 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "VietNam",
     color: tokens("dark").greenAccent[500],
     data: [
-      {
-        x: "plane",
-        y: 101,
-      },
-      {
-        x: "helicopter",
-        y: 75,
-      },
-      {
-        x: "boat",
-        y: 36,
-      },
-      {
-        x: "train",
-        y: 216,
-      },
-      {
-        x: "subway",
-        y: 35,
-      },
-      {
-        x: "bus",
-        y: 236,
-      },
-      {
-        x: "car",
-        y: 88,
-      },
-      {
-        x: "moto",
-        y: 232,
-      },
-      {
-        x: "bicycle",
-        y: 281,
-      },
-      {
-        x: "horse",
-        y: 1,
-      },
-      {
-        x: "skateboard",
-        y: 35,
-      },
-      {
-        x: "others",
-        y: 14,
-      },
+      { x: "January", y: 101 },
+      { x: "February", y: 75 },
+      { x: "March", y: 36 },
+      { x: "April", y: 216 },
+      { x: "May", y: 35 },
+      { x: "June", y: 236 },
+      { x: "July", y: 88 },
+      { x: "August", y: 232 },
+      { x: "September", y: 281 },
+      { x: "October", y: 1 },
+      { x: "November", y: 35 },
+      { x: "December", y: 14 },
     ],
   },
   {
     id: "france",
     color: tokens("dark").blueAccent[300],
     data: [
-      {
-        x: "plane",
-        y: 212,
-      },
-      {
-        x: "helicopter",
-        y: 190,
-      },
-      {
-        x: "boat",
-        y: 270,
-      },
-      {
-        x: "train",
-        y: 9,
-      },
-      {
-        x: "subway",
-        y: 75,
-      },
-      {
-        x: "bus",
-        y: 175,
-      },
-      {
-        x: "car",
-        y: 33,
-      },
-      {
-        x: "moto",
-        y: 189,
-      },
-      {
-        x: "bicycle",
-        y: 97,
-      },
-      {
-        x: "horse",
-        y: 87,
-      },
-      {
-        x: "skateboard",
-        y: 299,
-      },
-      {
-        x: "others",
-        y: 251,
-      },
+      { x: "January", y: 212 },
+      { x: "February", y: 190 },
+      { x: "March", y: 270 },
+      { x: "April", y: 9 },
+      { x: "May", y: 75 },
+      { x: "June", y: 175 },
+      { x: "July", y: 33 },
+      { x: "August", y: 189 },
+      { x: "September", y: 97 },
+      { x: "October", y: 87 },
+      { x: "November", y: 299 },
+      { x: "December", y: 251 },
     ],
   },
   {
     id: "us",
     color: tokens("dark").redAccent[200],
     data: [
-      {
-        x: "plane",
-        y: 191,
-      },
-      {
-        x: "helicopter",
-        y: 136,
-      },
-      {
-        x: "boat",
-        y: 91,
-      },
-      {
-        x: "train",
-        y: 190,
-      },
-      {
-        x: "subway",
-        y: 211,
-      },
-      {
-        x: "bus",
-        y: 152,
-      },
-      {
-        x: "car",
-        y: 189,
-      },
-      {
-        x: "moto",
-        y: 152,
-      },
-      {
-        x: "bicycle",
-        y: 8,
-      },
-      {
-        x: "horse",
-        y: 197,
-      },
-      {
-        x: "skateboard",
-        y: 107,
-      },
-      {
-        x: "others",
-        y: 170,
-      },
+      { x: "January", y: 191 },
+      { x: "February", y: 136 },
+      { x: "March", y: 91 },
+      { x: "April", y: 190 },
+      { x: "May", y: 211 },
+      { x: "June", y: 152 },
+      { x: "July", y: 189 },
+      { x: "August", y: 152 },
+      { x: "September", y: 8 },
+      { x: "October", y: 197 },
+      { x: "November", y: 107 },
+      { x: "December", y: 170 },
     ],
   },
 ];
+
 
 export const mockGeographyData = [
   {
