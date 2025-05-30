@@ -33,3 +33,15 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.app {
+  display: flex;
+  height: 100vh; /* Quan trọng: để Sidebar chiếm toàn bộ chiều cao */
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  height: 100vh; /* đảm bảo phần content cũng kéo dài */
+  overflow-y: auto;
+}

@@ -13,7 +13,7 @@ import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney"; // Import biểu tượng tiền
-
+import PieChart from "../../components/PieChart";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -144,14 +144,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Product attractiveness
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342.32
+                {/* $59,342.32 */}
               </Typography>
             </Box>
             <Box>
@@ -245,7 +245,7 @@ const Dashboard = () => {
           </Box>
         </Box>
         <Box
-          gridColumn="span 4"
+          gridColumn="span 8"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
         >
@@ -254,14 +254,16 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            Product quality
           </Typography>
-          <Box height="250px" mt="-20px">
+
+          <Box height="250px" mt="-20px"  >
             <BarChart isDashboard={true} />
           </Box>
+
         </Box>
         <Box
-          gridColumn="span 4"
+          gridColumn="span 6"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
           padding="30px"
@@ -269,13 +271,15 @@ const Dashboard = () => {
           <Typography
             variant="h5"
             fontWeight="600"
-            sx={{ marginBottom: "15px" }}
+            sx={{ marginBottom: "15px"
+
+             }}
           >
-            Geography Based Traffic
+            Customer's emotion
           </Typography>
           
           <Box height="200px">
-            <LineChart isDashboard={true} />
+            <PieChart isDashboard={true} />
           </Box>
         </Box>
       </Box>
