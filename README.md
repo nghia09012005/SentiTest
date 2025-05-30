@@ -43,15 +43,21 @@ src/
 ```bash
 git clone https://github.com/your-username/react-admin-dashboard.git
 cd react-admin-dashboard
-
+```
 ### 2. Install dependencies
+```
 npm install
 # or
 yarn install
-
+```
 
 ### 3. Start the development server
-
+```
 npm start
 # or
 yarn dev
+```
+
+
+
+
