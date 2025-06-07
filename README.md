@@ -41,7 +41,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-admin-dashboard.git
+git clone https://github.com/nghia09012005/SentiTest.git
 cd react-admin-dashboard
 ```
 ### 2. Install dependencies
